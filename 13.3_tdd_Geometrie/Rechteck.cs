@@ -29,8 +29,8 @@ namespace _13._3_tdd_Geometrie
             {
                 throw new ArgumentOutOfRangeException();
             }
-            breite = Convert.ToInt32(breite * faktor);
-            hoehe = Convert.ToInt32(hoehe * faktor);
+            breite = Convert.ToInt32(breite *faktor);
+            hoehe = Convert.ToInt32(hoehe *faktor);
         }
     }
 }
